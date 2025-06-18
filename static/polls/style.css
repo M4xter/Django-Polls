@@ -1,0 +1,11 @@
+li a {
+    color: rgba(240, 65, 211, 0.822);
+}
+
+
+body {
+    background: white url("../polls/images/background.png") no-repeat;
+    background-size: cover;
+}
+
+

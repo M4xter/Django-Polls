@@ -2,4 +2,6 @@ env/
 __pychache__/
 *.pyc
 .env
+static/
+staticfiles/
 data.json
