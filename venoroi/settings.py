@@ -19,7 +19,6 @@ load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
@@ -31,7 +30,7 @@ DEBUG = True
 
 APP_NAME = os.environ.get("FLY_APP_NAME")
 ALLOWED_HOSTS = [f"{APP_NAME}.fly.dev", "127.0.0.1", "localhost"]
-
+CSRF_TRUSTED_ORIGINS = [f"https://{APP_NAME}.fly.dev"]
 
 # Application definition
 
@@ -116,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en-us' 
 
 TIME_ZONE = 'UTC'
 
