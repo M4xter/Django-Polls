@@ -7,7 +7,15 @@ body {
     color: white;
     text-align: center;
 }
-
+bob {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("../polls/images/404.png") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
 .container {
     background-color: white;
     margin: 50px auto;

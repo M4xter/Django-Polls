@@ -36,11 +36,21 @@ EMAIL_BACKEND = (
 
 BREVO_API_KEY = os.environ.get("BREVO_API_KEY")
 
-DEFAULT_FROM_EMAIL = "max.mounik@gmail.com"
+DEFAULT_FROM_EMAIL = "v3no.fdm@gmail.com"
+ADMINS = [("veno", "v3no.fdm@gmail.com",)]
 
 APP_NAME = os.environ.get("FLY_APP_NAME")
 ALLOWED_HOSTS = [f"{APP_NAME}.fly.dev", "127.0.0.1", "localhost"]
 CSRF_TRUSTED_ORIGINS = [f"https://{APP_NAME}.fly.dev"]
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
+# This is a Google App Password from https://myaccount.google.com/u/0/apppasswords
+# Be sure to log in to that link with the above email address
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 
 # Application definition
 
