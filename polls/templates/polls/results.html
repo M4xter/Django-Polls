@@ -1,15 +1,111 @@
-{% extends 'polls/base.html' %}
+{% extends "polls/base.html" %}
+{% load static %}
 
-{% block title %}Résultats{% endblock %}
+{% block title %}Résultats – {{ question.question_text }}{% endblock %}
 
 {% block content %}
+<link rel="stylesheet" href="{% static 'polls/style.css' %}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+    .result-block {
+        margin-bottom: 1rem;
+    }
+
+    .result-label {
+        font-weight: 500;
+        margin-bottom: 0.2rem;
+    }
+
+    .progress-bar {
+        background-color: #ecf0f1;
+        border-radius: 8px;
+        overflow: hidden;
+        height: 20px;
+    }
+
+    .progress-fill {
+        background-color: #c38441;
+        height: 100%;
+        text-align: right;
+        color: white;
+        padding-right: 5px;
+        line-height: 20px;
+    }
+
+    .link-container {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .link-container a {
+        text-decoration: none;
+        color: #3498db;
+        font-weight: bold;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 2rem;
+    }
+</style>
+
+<div class="container">
     <h1>{{ question.question_text }}</h1>
 
-    <ul>
     {% for choice in question.choice_set.all %}
-        <li>{{ choice.choice_text }} — {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+        {% widthratio choice.votes total_votes 100 as percent %}
+        <div class="result-block">
+            <div class="result-label">🗳️ {{ choice.choice_text }} — {{ choice.votes }} vote{{ choice.votes|pluralize }} ({{ percent }}%)</div>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: {{ percent }}%;">{{ percent }}%</div>
+            </div>
+        </div>
+    {% empty %}
+        <p>Aucune option pour cette question.</p>
     {% endfor %}
-    </ul>
 
-    <a href="{% url 'polls:detail' question.id %}">Revoter ?</a>
+    <canvas id="resultsChart" width="400" height="300"></canvas>
+
+    <div class="link-container">
+        <a href="{% url 'polls:index' %}">⟵ Retour à la liste des sondages</a>
+    </div>
+</div>
+
+{{ labels|json_script:"labels-data" }}
+{{ votes|json_script:"votes-data" }}
+
+<script>
+    const labels = JSON.parse(document.getElementById('labels-data').textContent);
+    const votes = JSON.parse(document.getElementById('votes-data').textContent);
+
+    const ctx = document.getElementById('resultsChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Votes',
+                data: votes,
+                backgroundColor: 'rgba(195, 132, 65, 0.6)',
+                borderColor: 'rgba(145, 100, 51, 1)',
+                borderWidth: 1,
+                borderRadius: 5,
+                hoverBackgroundColor: 'rgba(167, 111, 53, 0.8)',
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: { stepSize: 1 }
+                }
+            },
+            plugins: {
+                legend: { display: false }
+            }
+        }
+    });
+</script>
 {% endblock %}

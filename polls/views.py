@@ -14,7 +14,7 @@ class IndexView(generic.ListView):
     def get_queryset(self):
         """
         Return the last five published questions (not including those set to be
-        published in the future).
+        published inZ the future).
         """
         return Question.objects.filter(pub_date__lte=timezone.now()).order_by("-pub_date")[
             :5
@@ -36,25 +36,48 @@ class ResultsView(generic.DetailView):
     model = Question
     template_name = "polls/results.html"
 
+class ResultsView(generic.DetailView):
+    model = Question
+    template_name = "polls/results.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        question = self.get_object()
+        choices = question.choice_set.all()
+        total_votes = sum(choice.votes for choice in choices)
+
+        context['total_votes'] = total_votes
+        context['labels'] = [choice.choice_text for choice in choices]
+        context['votes'] = [choice.votes for choice in choices]
+        return context
+
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     try:
         selected_choice = question.choice_set.get(pk=request.POST["choice"])
     except (KeyError, Choice.DoesNotExist):
-        # Redisplay the question voting form.
         return render(
             request,
             "polls/detail.html",
             {
                 "question": question,
-                "error_message": "You didn't select a choice.",
+                "error_message": "Tu n'as selectionné aucun choix.",
             },
         )
     else:
         selected_choice.votes = F("votes") + 1
         selected_choice.save()
-        # Always return an HttpResponseRedirect after successfully dealing
-        # with POST data. This prevents data from being posted twice if a
-        # user hits the Back button.
         return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))
+
+def results(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    choices = question.choice_set.all()
+    labels = [choice.choice_text for choice in choices]
+    votes = [choice.votes for choice in choices]
+    
+    return render(request, 'polls/results.html', {
+        'question': question,
+        'labels': labels,
+        'votes': votes,
+    })

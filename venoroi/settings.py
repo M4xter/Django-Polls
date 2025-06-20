@@ -26,7 +26,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7o^(u#h(2^80e176)pd_mw$xhs7e$ex*)fy*15jcl36-*y&o05'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = getenv("DEBUG") == 'True'
+
+EMAIL_BACKEND = (
+    "anymail.backends.brevo.EmailBackend"
+    if not DEBUG
+    else "django.core.mail.backends.console.EmailBackend"
+)
+
+BREVO_API_KEY = os.environ.get("BREVO_API_KEY")
+
+DEFAULT_FROM_EMAIL = "max.mounik@gmail.com"
 
 APP_NAME = os.environ.get("FLY_APP_NAME")
 ALLOWED_HOSTS = [f"{APP_NAME}.fly.dev", "127.0.0.1", "localhost"]
@@ -72,6 +82,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'venoroi.wsgi.application'
+
 
 
 # Database
@@ -128,7 +139,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field

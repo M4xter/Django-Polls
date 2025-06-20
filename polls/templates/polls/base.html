@@ -1,13 +1,53 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Mon site{% endblock %}</title>
+    <title>{% block title %}Mon site de sondages{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #2c3e50;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 4rem auto;
+            padding: 0 1rem;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        audio {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            width: 200px;
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
-    {% block content %}
-    {% endblock %}
+
+     <audio controls autoplay>
+        <source src="{% static 'polls/audio/apdl.mp3' %}" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+
 </body>
 </html>

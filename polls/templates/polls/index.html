@@ -1,15 +1,80 @@
-{% extends 'polls/base.html' %}
+{% extends "polls/base.html" %}
+{% load static %}
 
-{% block title %}Liste des sondages{% endblock %}
+{% block title %}Sondages{% endblock %}
 
 {% block content %}
+<style>
+    body {
+        font-family: system-ui, sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 60px auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        color: #2c3e50;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 0.8rem 0;
+    }
+
+    a.poll-link {
+        display: block;
+        background: #3498db;
+        color: white;
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        border-radius: 8px;
+        transition: background 0.3s ease;
+        font-size: 1.1rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    a.poll-link:hover {
+        background: #2980b9;
+    }
+
+    .no-polls {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #888;
+    }
+</style>
+
+<div class="container">
+    <h1>📊 Sondages disponibles</h1>
+
     {% if latest_question_list %}
         <ul>
-        {% for question in latest_question_list %}
-            <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
-        {% endfor %}
+            {% for question in latest_question_list %}
+                <li>
+                    <a class="poll-link" href="{% url 'polls:detail' question.id %}">
+                        🗳️ {{ question.question_text }}
+                    </a>
+                </li>
+            {% endfor %}
         </ul>
     {% else %}
-        <p>No polls are available.</p>
+        <p class="no-polls">Aucun sondage disponible pour le moment.</p>
     {% endif %}
+</div>
 {% endblock %}
