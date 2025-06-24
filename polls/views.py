@@ -9,6 +9,10 @@ from django.core.mail import mail_admins
 from .models import Choice, Question
 from django.template.loader import render_to_string
 from django.conf import settings
+import requests
+from django.http import JsonResponse
+from .utils import get_client_ip, get_geoip_details
+from .models import Response
 
 
 class IndexView(generic.ListView):
@@ -53,6 +57,17 @@ class ResultsView(generic.DetailView):
         context['votes'] = [choice.votes for choice in choices]
         return context
 
+def response_list_json(request):
+    responses = Response.objects.all()
+    data = []
+    for r in responses:
+        data.append({
+            "id": r.id,
+            "response_text": r.response_text,  # ici le vrai nom du champ
+            "longitude": r.longitude,
+            "latitude": r.latitude,
+        })
+    return JsonResponse(data, safe=False)
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
@@ -73,27 +88,62 @@ def vote(request, question_id):
         selected_choice.refresh_from_db()
 
         vote_count = selected_choice.votes
-
         total_votes = sum(choice.votes for choice in question.choice_set.all())
-        if total_votes > 0:
-            percentage = round((vote_count / total_votes) * 100, 2)
-        else:
-            percentage = 0
 
+        ip_address = get_client_ip(request)
+        geo = get_geoip_details(ip_address)
+
+        percentage = round((vote_count / total_votes) * 100, 2) if total_votes > 0 else 0
+
+        # Récupération de l'IP
+        ip_address = get_client_ip(request)
+
+        # Appel à l’API Hackertarget pour géolocalisation (facultatif)
+        try:
+            url = f"https://api.hackertarget.com/geoip/?q={ip_address}&output=json"
+            response = requests.get(url, timeout=5)
+            geo_data = response.json() if response.status_code == 200 else {}
+        except requests.RequestException:
+            geo_data = {}
+
+        country = geo_data.get("country", "Inconnu")
+        city = geo_data.get("city", "Inconnue")
+        longitude = geo_data.get("longitude")
+        latitude = geo_data.get("latitude")
+
+
+
+        # new response ; request.POST["choice"] ; question=question
+        if latitude is not None and longitude is not None:
+            response_text = selected_choice.choice_text
+            Response.objects.create(question=question, response_text=response_text, latitude=latitude, longitude=longitude)
+
+        # Email HTML enrichi avec IP et géoloc
         html_message = render_to_string("emails/vote_notification.html", {
             "question_text": question.question_text,
             "choice_text": selected_choice.choice_text,
             "percentage": percentage,
             "vote_count": vote_count,
+            "ip_address": ip_address,
+            "country": country,
+            "longitude": longitude,
+            "latitude": latitude,
+            "city": city,
         })
 
-        
+        # Email texte brut
+        message = f"""Un utilisateur a voté "{selected_choice.choice_text}" pour la question :
+"{question.question_text}".
+Adresse IP : {ip_address}
+Pays : {country}
+Ville : {city}"""
+
         mail_admins(
             subject="Un utilisateur a voté",
-            message=f'L\'utilistaeur a voté "{selected_choice.choice_text}" pour la question : "{question}".', # None, # recipient_list=settings.ADMINS
+            message=message,
             html_message=html_message
         )
-        
+
         return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))
 
 def results(request, question_id):

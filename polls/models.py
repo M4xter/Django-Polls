@@ -30,3 +30,12 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
     def __str__(self):
         return self.choice_text
+
+class Response(models.Model):
+    question = models.ForeignKey(Question, on_delete=models.CASCADE, related_name='responses_from_responses_app')
+    response_text = models.CharField(max_length=200)
+    longitude = models.FloatField()
+    latitude = models.FloatField()
+
+    def __str__(self):
+        return self.response_text

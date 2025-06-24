@@ -13,6 +13,22 @@
         <p><strong>Nombre de votes pour ce choix :</strong> {{ vote_count }}</p>
         <p><strong>Pourcentage de ce choix :</strong> {{ percentage }}%</p>
 
+        <hr>
+        <p><strong>Adresse IP :</strong> {{ ip_address }}</p>
+        <p><strong>Pays :</strong> {{ country }}</p>
+        <p><strong>Ville :</strong> {{ city }}</p>
+
+        {% if latitude and longitude %}
+        <p><strong>Localisation sur la carte :</strong></p>
+        <img
+            src="https://print.getwemap.com/v1.0/static/marker/{{ longitude }},{{ latitude }},15/500x500.png"
+            alt="Carte de la localisation"
+            style="width: 100%; max-width: 500px; height: auto; border-radius: 8px;"
+        />
+        {% else %}
+        <p>Carte non disponible pour cette localisation.</p>
+        {% endif %}
+
         <div style="margin-top: 20px;">
             <div style="background-color: #eeeeee; border-radius: 4px; overflow: hidden; height: 24px;">
                 <div style="width: {{ percentage }}%; background-color: #4CAF50; height: 100%; color: white; text-align: right; padding-right: 8px; line-height: 24px; font-size: 13px;">
