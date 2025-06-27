@@ -1,0 +1,4214 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/299705248",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "5",
+      "addr:postcode": "34000",
+      "addr:street": "Rue de la Barralerie",
+      "amenity": "restaurant",
+      "check_date": "2025-02-28",
+      "check_date:opening_hours": "2025-02-28",
+      "contact:phone": "+33 4 67 56 91 93",
+      "cuisine": "pizza",
+      "name": "Il Pizzaiolo",
+      "opening_hours": "Mo-Sa 11:30-22:00",
+      "ref:FR:SIRET": "75201773100023",
+      "website": "https://il-pizzaiolo.fr/le-snack/",
+      "description": "Il Pizzaiolo est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8758721,
+        43.6109756
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/363446917",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "L'Olivia",
+      "phone": "+33 4 67 60 70 86",
+      "description": "L'Olivia est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8630556,
+        43.6649762
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/479160973",
+      "addr:housenumber": "2",
+      "addr:street": "Rue Jules Grévy",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizzalab",
+      "phone": "+33 9 78 81 27 83",
+      "ref:FR:SIRET": "97781967100024",
+      "survey:date": "2024-05-05",
+      "website": "https://instagram.com/pizzalab_montpellier?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+      "wheelchair": "yes",
+      "description": "Pizzalab est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8817173,
+        43.616111
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/598975111",
+      "addr:housenumber": "19",
+      "addr:street": "Rue Henri René",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Parma Pizza",
+      "ref:FR:SIRET": "91964796600010",
+      "wheelchair": "no",
+      "description": "Parma Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8826072,
+        43.6039274
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/601728801",
+      "access:covid19": "yes",
+      "addr:housenumber": "4",
+      "addr:street": "Rue de la Petite Loge",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "delivery:covid19": "yes",
+      "drive_through:covid19": "yes",
+      "name": "Don Camillo",
+      "opening_hours:covid19": "Tu-Su 17:00-23:00",
+      "ref:FR:SIRET": "50779222400044",
+      "takeaway:covid19": "yes",
+      "description": "Don Camillo est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8779405,
+        43.6102932
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/608303113",
+      "addr:city": "Montpellier",
+      "addr:country": "FR",
+      "addr:housenumber": "16",
+      "addr:postcode": "34000",
+      "addr:street": "Rue Boussairolles",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "indoor_seating": "yes",
+      "name": "Five PIZZA",
+      "outdoor_seating": "pedestrian_zone",
+      "ref:FR:SIRET": "92197875500012",
+      "description": "Five PIZZA est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8810106,
+        43.6079394
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/609076764",
+      "addr:housenumber": "20",
+      "addr:street": "Rue du Pila Saint-Gély",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "height:threshold": "0",
+      "name": "Sicilia",
+      "outdoor_seating": "yes",
+      "phone": "+33467663098",
+      "ref:FR:SIRET": "79285940700019",
+      "website": "https://www.pizzeriasicilia.fr/",
+      "wheelchair": "yes",
+      "wheelchair:entrance_width": "200",
+      "description": "Sicilia est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8802046,
+        43.6136339
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/635872129",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "19",
+      "addr:postcode": "34000",
+      "addr:street": "Quai du Verdanson",
+      "amenity": "fast_food",
+      "brand": "Domino's",
+      "brand:wikidata": "Q839466",
+      "brand:wikipedia": "en:Domino's Pizza",
+      "cuisine": "pizza",
+      "name": "Domino's",
+      "opening_hours": "Mo-Sa 11:30-14:00,18:00-23:00; Su 11:30-23:00",
+      "phone": "+33 467792620",
+      "ref:FR:SIRET": "53384288600020",
+      "short_name": "Domino's",
+      "takeaway": "yes",
+      "website": "https://www.dominos.fr/magasin/montpellier-centre_34000",
+      "wheelchair": "yes",
+      "description": "Domino's est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8769586,
+        43.6156869
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/635872308",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "delivery:covid19": "yes",
+      "name": "Speed Rabbit",
+      "opening_hours:covid19": "Mo-Su 17:30-20:30",
+      "takeaway:covid19": "yes",
+      "wheelchair": "yes",
+      "description": "Speed Rabbit est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8885179,
+        43.6079974
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/660247121",
+      "amenity": "restaurant",
+      "brand": "Pizza Hut",
+      "brand:wikidata": "Q191615",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "disused:amenity": "cafe",
+      "name": "Pizza Hut",
+      "old_name": "La Grande Avenue",
+      "ref:FR:SIRET": "84326804600011",
+      "takeaway": "yes",
+      "description": "Pizza Hut est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8685789,
+        43.6012735
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/660247133",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "3",
+      "addr:postcode": "34000",
+      "addr:street": "Avenue de Toulouse",
+      "amenity": "fast_food",
+      "brand": "Domino's",
+      "brand:wikidata": "Q839466",
+      "brand:wikipedia": "en:Domino's Pizza",
+      "cuisine": "pizza",
+      "entrance:step:height": "0.03",
+      "entrance:width": "0.9",
+      "name": "Domino's",
+      "opening_hours": "Mo-Sa 11:30-14:00,18:00-23:00; Su 11:30-23:00",
+      "phone": "+33 4 67 47 13 00",
+      "takeaway": "yes",
+      "website": "https://www.dominos.fr/magasin/montpellier-sud_34070",
+      "description": "Domino's est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8677062,
+        43.6004765
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/660247276",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "33",
+      "addr:postcode": "34000",
+      "addr:street": "Avenue Georges Clemenceau",
+      "amenity": "fast_food",
+      "check_date:opening_hours": "2023-02-25",
+      "cuisine": "pizza",
+      "name": "La Tour de Piz'a",
+      "opening_hours": "Tu-Su 18:00-22:30",
+      "phone": "+33 4 67 29 31 77",
+      "ref:FR:SIRET": "40255484400025",
+      "website": "https://www.latourdepiza.com/",
+      "description": "La Tour de Piz'a est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8715001,
+        43.6028798
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/660297359",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Bambino Pizza",
+      "ref:FR:SIRET": "52468234100010",
+      "description": "Bambino Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8657122,
+        43.5986598
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/664050657",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Cabane",
+      "description": "Pizza Cabane est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8689663,
+        43.6082837
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/664073193",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Le Repalatin",
+      "opening_hours": "Tu-Th,Sa 11:00-15:00,18:00-23:00; Fr,Su 15:00-23:00",
+      "outdoor_seating": "no",
+      "payment:credit_cards": "yes",
+      "payment:debit_cards": "yes",
+      "ref:FR:SIRET": "81946671500029",
+      "smoking": "no",
+      "wheelchair": "limited",
+      "description": "Le Repalatin est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8661139,
+        43.607077
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/664074023",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Allo Pizza",
+      "description": "Allo Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8592098,
+        43.6048718
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/664074024",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Délices Palace",
+      "description": "Délices Palace est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8584595,
+        43.6043795
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/670097839",
+      "amenity": "fast_food",
+      "contact:phone": "+33467745135",
+      "cuisine": "pizza",
+      "name": "Au Feu de Bois",
+      "description": "Au Feu de Bois est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.669717,
+        43.4881966
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/674039112",
+      "addr:street": "Avenue de Toulouse",
+      "amenity": "restaurant",
+      "contact:phone": "+33467500507",
+      "cuisine": "pizza",
+      "entrance:step:height": "0.03",
+      "entrance:width": "0.9",
+      "name": "Pizza Plazza",
+      "wheelchair": "yes",
+      "description": "Pizza Plazza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8604039,
+        43.5940669
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/674096934",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Aroma Piazza & Focaccia",
+      "ref:FR:SIRET": "82401977200014",
+      "description": "Aroma Piazza & Focaccia est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8737988,
+        43.6088131
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/697316461",
+      "addr:housenumber": "105",
+      "addr:postcode": "34080",
+      "addr:street": "Avenue du Lauragais",
+      "amenity": "fast_food",
+      "contact:facebook": "Miamspizza2017",
+      "cuisine": "pizza",
+      "name": "Miam's Pizza",
+      "website:menu": "https://fr.restaurantguru.com/Miams-Pizza-Montpellier/menu",
+      "wheelchair": "yes",
+      "description": "Miam's Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.821679,
+        43.6311722
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/697324866",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Bella Chez Denis",
+      "description": "Pizza Bella Chez Denis est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8171772,
+        43.6274503
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/697336016",
+      "addr:city": "Montpellier",
+      "addr:country": "FR",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "description": "Restaurant sans nom est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.816749,
+        43.6245832
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/697349746",
+      "addr:city": "Montpellier",
+      "addr:country": "FR",
+      "addr:housenumber": "517",
+      "addr:street": "Avenue de Barcelone",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "entrance:step:height": "0",
+      "entrance:step_count": "0",
+      "entrance:width": "0.86",
+      "survey:date": "2022-07-31",
+      "wheelchair": "yes",
+      "description": "Restaurant sans nom est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8173074,
+        43.6252371
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/711917034",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza street",
+      "opening_hours": "Mo-Su 11:30-23:00",
+      "website": "https://www.lacrisepizza.fr/",
+      "description": "Pizza street est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.879182,
+        43.6122289
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/724224689",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Cheezy pizza",
+      "description": "Cheezy pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8765723,
+        43.6121341
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/871180644",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Pierrot",
+      "takeaway": "only",
+      "description": "Pizza Pierrot est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8898812,
+        43.6263394
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1018061162",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Il Fornetto",
+      "outdoor_seating": "yes",
+      "phone": "+33 7 66 81 57 92",
+      "website": "http://pizzeriailfornetto.fr/",
+      "description": "Il Fornetto est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8892597,
+        43.6072898
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1210705403",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Gaston",
+      "phone": "+33467595020",
+      "description": "Pizza Gaston est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8636228,
+        43.6834466
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1346745397",
+      "addr:city": "La Grande-Motte",
+      "addr:housenumber": "4",
+      "addr:postcode": "34280",
+      "addr:street": "Avenue Plein Soleil",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "D'élicia",
+      "phone": "+33499633120",
+      "description": "D'élicia est un restaurant situé à La Grande-Motte, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0634354,
+        43.5608852
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1376238971",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizzeria La Casa",
+      "ref:FR:SIRET": "91114529000019",
+      "description": "Pizzeria La Casa est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8727483,
+        43.62093
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1376239013",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Show Pizza",
+      "opening_hours": "Mo-Su,PH 10:00-22:00",
+      "description": "Show Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8727664,
+        43.6208796
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1588305086",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Montapizza",
+      "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
+      "description": "Montapizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8515801,
+        43.6015117
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1660664898",
+      "amenity": "fast_food",
+      "contact:phone": "+33467791462",
+      "cuisine": "pizza",
+      "name": "Bianca",
+      "description": "Bianca est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7971518,
+        43.6481993
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1702963786",
+      "addr:housenumber": "13",
+      "addr:street": "Rue Frédéric Bazille",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "wheelchair": "yes",
+      "description": "Restaurant sans nom est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.880463,
+        43.6026632
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1711206781",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "1444",
+      "addr:postcode": "34090",
+      "addr:street": "Route de Mende",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "diet:vegetarian": "yes",
+      "name": "Spizza - Fac de Lettres Montpellier",
+      "opening_hours": "Mo-Su 11:00-14:00,18:00-22:30",
+      "phone": "+33 4 67 63 44 96",
+      "takeaway": "yes",
+      "website": "https://www.s.pizza/",
+      "description": "Spizza - Fac de Lettres Montpellier est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8687709,
+        43.6353331
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1714309569",
+      "addr:housenumber": "22",
+      "addr:street": "Place Jean Bène",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "L'étoile du Lez",
+      "phone": "+33624558166",
+      "wheelchair": "limited",
+      "description": "L'étoile du Lez est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8957229,
+        43.6040909
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1739563911",
+      "addr:street": "Place Faulquier",
+      "amenity": "fast_food",
+      "contact:phone": "+33 4 67 22 16 38",
+      "cuisine": "pizza",
+      "name": "Deci-Delà",
+      "takeaway": "only",
+      "wheelchair": "no",
+      "description": "Deci-Delà est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8918434,
+        43.6052206
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1739826427",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pozz'a Pizza",
+      "phone": "+33986518418",
+      "ref:FR:SIRET": "83073151900013",
+      "takeaway": "only",
+      "website": "https://www.pozzapizza.fr/",
+      "wheelchair": "no",
+      "description": "Pozz'a Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8911612,
+        43.6064371
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1796021197",
+      "amenity": "restaurant",
+      "contact:city": "Montpellier",
+      "contact:housenumber": "33",
+      "contact:phone": "+33 4 67 54 93 13",
+      "contact:postcode": "34000",
+      "contact:street": "Avenue de l'École d'Agriculture Gabriel Buchet",
+      "cuisine": "pizza",
+      "name": "Pizza Bruno a emporter",
+      "wheelchair": "yes",
+      "description": "Pizza Bruno a emporter est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8568727,
+        43.6149343
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1832999122",
+      "addr:city": "Frontignan",
+      "addr:country": "FR",
+      "addr:housenumber": "2;1",
+      "addr:postcode": "34110",
+      "addr:street": "Avenue des Cormorans",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "email": "franck.archambaud@hotmail.fr",
+      "name": "Le Phonéa - Chez Maxime",
+      "operator": "Franck Archambaud",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 67 43 47 37",
+      "url": "http://www.frontignan-tourisme.com/index.php?pagendx=303&engine_zoom=RESLAR034FS001U8",
+      "was:amenity": "restaurant",
+      "was:name": "La Crêperie Bretonne \"Finistère Sud\"",
+      "description": "Le Phonéa - Chez Maxime est un restaurant situé à Frontignan, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.778461,
+        43.4341424
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1846854147",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Valentino",
+      "ref:FR:SIRET": "80187504800010",
+      "description": "Pizza Valentino est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8738017,
+        43.6083822
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1864450547",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Chez Jeje",
+      "description": "Chez Jeje est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8283121,
+        43.5771458
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1871936792",
+      "addr:city": "Lunel",
+      "addr:housenumber": "781",
+      "addr:postcode": "34400",
+      "addr:street": "Avenue du Vidourle",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Fringale",
+      "opening_hours": "10:00-13:30,17:00-22:00",
+      "phone": "+33 4 67 71 80 52",
+      "takeaway": "only",
+      "website": "http://lafringale-lunel.com",
+      "description": "La Fringale est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.15271,
+        43.6842172
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1909814913",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "18",
+      "addr:postcode": "34080",
+      "addr:street": "Avenue Aglaé Adanson",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "drive_through": "no",
+      "name": "Ô Chô",
+      "opening_hours": "Mo-Fr 08:00-14:015; Th-Su 17:30-22:00",
+      "phone": "+33620390673",
+      "website": "https://o-cho.fr",
+      "wheelchair": "yes",
+      "description": "Ô Chô est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8327717,
+        43.6344771
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1961305219",
+      "addr:city": "Marseillan",
+      "addr:housenumber": "3",
+      "addr:postcode": "34340",
+      "addr:street": "Rue Général de Gaulle",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Bella",
+      "opening_hours": "Mo-Su 18:00-22:00",
+      "phone": "+33 4 67 01 61 33",
+      "source": "survey",
+      "description": "Pizza Bella est un restaurant situé à Marseillan, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.5278082,
+        43.3560098
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/1989566172",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza du Plan",
+      "ref:FR:SIRET": "41104937200039",
+      "takeaway:covid19": "yes",
+      "description": "Pizza du Plan est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8570254,
+        43.6407687
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2054149003",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Le Ranch Pizzeria",
+      "opening_hours": "Mo-Fr 06:00-24:00",
+      "description": "Le Ranch Pizzeria est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8704273,
+        43.6294234
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2056202951",
+      "addr:city": "Sussargues",
+      "addr:country": "FR",
+      "addr:postcode": "34160",
+      "addr:street": "Louis Buis",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "drive_in": "yes",
+      "internet_access:fee": "no",
+      "name": "L'entrepote",
+      "outdoor_seating": "yes",
+      "smoking": "no",
+      "takeaway": "yes",
+      "wheelchair": "yes",
+      "description": "L'entrepote est un restaurant situé à Sussargues, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0046582,
+        43.7125222
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2065508010",
+      "access:covid19": "no",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "2220",
+      "addr:street": "Avenue du Père Soulas",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/Pizzeria-Pierrot-et-fils-Avenue-P%C3%A8re-Soulas--148710305165047/",
+      "cuisine": "pizza",
+      "delivery:covid19": "no",
+      "drive_through": "no",
+      "entrance:step:height": "0",
+      "entrance:step_count": "0",
+      "entrance:width": "1.6",
+      "name": "Pizza Pierrot & Fils",
+      "opening_hours": "11:00-13:45,17:00-21:30",
+      "outdoor_seating": "no",
+      "payment:cash": "yes",
+      "payment:contactless": "yes",
+      "payment:debit_cards": "yes",
+      "payment:meal_voucher": "yes",
+      "phone": "+33 4 67 04 22 37",
+      "takeaway": "yes",
+      "takeaway:covid19": "yes",
+      "website": "http://pizzapierrot.com/",
+      "wheelchair": "yes",
+      "description": "Pizza Pierrot & Fils est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8462634,
+        43.6283259
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2065668012",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "description": "Spizza34 est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité.",
+      "name": "Spizza34",
+      "opening_hours:covid19": "off",
+      "phone": "+33467540044"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8633607,
+        43.6187337
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2078180956",
+      "amenity": "fast_food",
+      "check_date": "2024-06-07",
+      "cuisine": "pizza",
+      "name": "@ttitude",
+      "description": "@ttitude est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8878476,
+        43.5960018
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2078180963",
+      "amenity": "fast_food",
+      "check_date": "2024-06-05",
+      "cuisine": "pizza",
+      "name": "Pizza Délice",
+      "phone": "+33467422557",
+      "ref:FR:SIRET": "81187923800012",
+      "description": "Pizza Délice est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.887508,
+        43.5964008
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2089826573",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "description": "Restaurant sans nom est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6072816,
+        43.5008893
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2157164325",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "12",
+      "addr:postcode": "34080",
+      "addr:street": "Route de Lodève",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/CRAFT-PIZZA-111209656947332/",
+      "cuisine": "pizza",
+      "name": "Craft Pizza",
+      "opening_hours": "Mo-Su 18:00-01:00",
+      "phone": "+33411930630",
+      "ref:FR:SIRET": "85323403700010",
+      "wheelchair": "yes",
+      "description": "Craft Pizza est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8295337,
+        43.6147261
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2157260101",
+      "addr:housenumber": "1",
+      "addr:street": "Route de Lodève",
+      "amenity": "fast_food",
+      "check_date:opening_hours": "2024-04-13",
+      "cuisine": "pizza",
+      "name": "Pizza Nona",
+      "opening_hours:signed": "no",
+      "phone": "+33467405864",
+      "wheelchair": "no",
+      "description": "Pizza Nona est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8301586,
+        43.6146423
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2350883175",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Le Fashion",
+      "opening_hours:covid19": "Mo-Fr 10:00-19:00",
+      "description": "Le Fashion est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8690803,
+        43.6353192
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2363199004",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Ô Patio",
+      "opening_hours:covid19": "off",
+      "wheelchair": "yes",
+      "description": "Ô Patio est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8292978,
+        43.6401826
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2449181509",
+      "amenity": "fast_food",
+      "check_date": "2024-06-25",
+      "cuisine": "pizza",
+      "name": "Corsica Pizza",
+      "description": "Corsica Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9783296,
+        43.5464487
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2449181515",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "description": "Restaurant sans nom est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9783647,
+        43.5463658
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2455589246",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "name": "La Boîte à Pizza",
+      "takeaway": "yes",
+      "description": "La Boîte à Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6769446,
+        43.4103874
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2456670297",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Le C'est Toi",
+      "description": "Le C'est Toi est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.698068,
+        43.4043389
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2482488704",
+      "addr:city": "Sète",
+      "addr:country": "FR",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Piz'sa&la",
+      "description": "Piz'sa&la est un restaurant situé à Sète, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6748155,
+        43.3924006
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2502840459",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Magic Pizza",
+      "survey:date": "2020-10-04",
+      "description": "Magic Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8314457,
+        43.6486673
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2813222307",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Crock' Pizza",
+      "description": "Crock' Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6690901,
+        43.4875681
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2813222312",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Le Salerno",
+      "description": "Le Salerno est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6695629,
+        43.4892511
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/2942632643",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Latt' in Pizz",
+      "description": "Latt' in Pizz est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9059495,
+        43.5718521
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3039554805",
+      "addr:city": "Montpellier",
+      "addr:country": "FR",
+      "addr:housenumber": "14",
+      "addr:postcode": "34000",
+      "addr:street": "Rue Boussairolles",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "entrance:step:height": "0",
+      "entrance:step_count": "0",
+      "entrance:width": "1.5",
+      "name": "Il Pizzaiolo",
+      "opening_hours": "Mo-Su 12:00-14:00,19:00-23:00",
+      "phone": "+33 4 67 86 36 91",
+      "website": "https://www.il-pizzaiolo.fr/pizzas-montpellier/",
+      "wheelchair": "yes",
+      "wheelchair:description": "fr: toilettes accessibles",
+      "description": "Il Pizzaiolo est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.881182,
+        43.6077788
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3157995988",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Jacques et Fils",
+      "takeaway": "only",
+      "description": "Pizza Jacques et Fils est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7077493,
+        43.4934979
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3158033864",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Coccinelle",
+      "description": "La Coccinelle est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7108568,
+        43.5003165
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3174812608",
+      "addr:city": "Pérols",
+      "addr:postcode": "34470",
+      "addr:street": "Avenue Georges Frêche",
+      "air_conditioning": "yes",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/PizzaFinoPerols",
+      "cuisine": "pizza",
+      "name": "Pizzeria Fino",
+      "opening_hours": "Mo-Sa 12:00-14:00,19:00-22:30",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 67 27 58 43",
+      "start_date": "2014",
+      "website": "https://pizzeriafino.fr/",
+      "description": "Pizzeria Fino est un restaurant situé à Pérols, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9451492,
+        43.5739097
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3392942376",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "18",
+      "addr:postcode": "34000",
+      "addr:street": "Rue d'Alger",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "description": "Restaurant sans nom est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8776407,
+        43.6045347
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3417545966",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pepino Pizza",
+      "description": "Pepino Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1802905,
+        43.6637334
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3639157874",
+      "addr:city": "La Grande-Motte",
+      "addr:housenumber": "2",
+      "addr:postcode": "34280",
+      "addr:street": "Allée des Goélands",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/Broche-dOr-Goéland-Grande-Motte-Traiteur-Pizza-Paella-Rotisserie-emporter-1529532047349799",
+      "cuisine": "pizza",
+      "description": "La Broche d'Or est un restaurant situé à La Grande-Motte, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité.",
+      "name": "La Broche d'Or",
+      "opening_hours": "Tu-Sa 09:00-13:30,17:00-19:30; Su 09:00-13:30",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 67 56 18 28",
+      "takeaway": "yes",
+      "website": "https://labrochedor.fr"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0932751,
+        43.5638758
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3654832864",
+      "addr:city": "La Grande-Motte",
+      "addr:postcode": "34280",
+      "addr:street": "Passage Paul Valéry",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/napolipizza.traiteur",
+      "contact:instagram": "https://www.instagram.com/explore/locations/322888481200647/napoli-pizza-traiteur",
+      "cuisine": "pizza",
+      "name": "Napoli Pizza",
+      "opening_hours": "09:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 67 56 12 46",
+      "start_date": "1976",
+      "takeaway": "yes",
+      "website": "https://napoli-pizza-traiteur.fr",
+      "description": "Napoli Pizza est un restaurant situé à La Grande-Motte, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.089491,
+        43.557857
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3654866792",
+      "addr:city": "La Grande-Motte",
+      "addr:housenumber": "51",
+      "addr:postcode": "34280",
+      "addr:street": "Place Paul Valéry",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "description": "Formula Pizza est un restaurant situé à La Grande-Motte, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité.",
+      "name": "Formula Pizza",
+      "opening_hours": "18:00-22:00",
+      "phone": "+33 4 67 29 87 75",
+      "takeaway": "yes"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.089322,
+        43.5570249
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3655321201",
+      "addr:city": "La Grande-Motte",
+      "addr:housenumber": "222",
+      "addr:postcode": "34280",
+      "addr:street": "Avenue de l'Europe",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizzeria Pierrot & Katia",
+      "opening_hours": "10:00-14:00,17:00-21:00",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 67 29 94 04",
+      "takeaway": "yes",
+      "website": "https://lacarte.menu/restaurants/la-grande-motte/pizzeria-pierrot-et-katia",
+      "description": "Pizzeria Pierrot & Katia est un restaurant situé à La Grande-Motte, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0899604,
+        43.5577527
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3655685341",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Tour de Pizza",
+      "description": "La Tour de Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1000601,
+        43.5666927
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3672395041",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Alba Pizze",
+      "description": "Alba Pizze est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9253735,
+        43.636005
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3672469578",
+      "addr:city": "Lunel",
+      "addr:housenumber": "208",
+      "addr:postcode": "34400",
+      "addr:street": "Boulevard Lafayette",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/Littleitalypizzalunel",
+      "cuisine": "pizza",
+      "drive_through": "no",
+      "name": "Little Italy",
+      "opening_hours": "Tu-Su 18:00-22:00",
+      "phone": "+33 4 67 71 51 71",
+      "takeaway": "only",
+      "website": "https://littleitaly-pizza-lunel.jimdo.com",
+      "description": "Little Italy est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1342515,
+        43.6773247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3673165248",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Chez Vincent",
+      "description": "Chez Vincent est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.017059,
+        43.6595356
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3675303956",
+      "addr:city": "Lunel",
+      "addr:housenumber": "187",
+      "addr:postcode": "34400",
+      "addr:street": "Rue Sadi Carnot",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Fringale",
+      "opening_hours": "Mo-Sa 10:30-13:30,17:30-22:00",
+      "phone": "+33 4 67 71 97 92",
+      "takeaway": "only",
+      "website": "http://lafringale-lunel.com",
+      "description": "La Fringale est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1350929,
+        43.6770158
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3750344010",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "name": "Bip-Bipizza",
+      "description": "Bip-Bipizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0074949,
+        43.6157233
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3761696121",
+      "addr:city": "Candillargues",
+      "addr:housenumber": "3",
+      "addr:postcode": "34130",
+      "addr:street": "Rue Victor Hugo",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "name": "D’Ici et Là",
+      "opening_hours": "Tu-Sa 10:00-14:00,18:00-20:45",
+      "outdoor_seating": "yes",
+      "phone": "+33 6 09 81 20 41",
+      "takeaway": "yes",
+      "description": "D’Ici et Là est un restaurant situé à Candillargues, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0686165,
+        43.6202125
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3813996138",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Palermo pizza",
+      "description": "Palermo pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.807538,
+        43.6153842
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3850532178",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza du Golf",
+      "description": "Pizza du Golf est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.799044,
+        43.6268737
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3899388516",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizzaccro",
+      "description": "Pizzaccro est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0098552,
+        43.6163607
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3920508634",
+      "addr:city": "Saint-Drézéry",
+      "addr:postcode": "34160",
+      "addr:street": "Chemin de la Lavande",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/Levickees",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "description": "Le Vickee's est un restaurant situé à Saint-Drézéry, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité.",
+      "name": "Le Vickee's",
+      "opening_hours": "We-Su 18:30-21:30",
+      "phone": "+33 7 80 36 86 34",
+      "takeaway": "only"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9807957,
+        43.7322268
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3938250440",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Avanti Pizza",
+      "description": "Avanti Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9049481,
+        43.5693994
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3986433944",
+      "amenity": "restaurant",
+      "contact:phone": "+33 4 67 70 37 68",
+      "cuisine": "pizza",
+      "name": "Tudisco Pizza",
+      "ref:FR:SIRET": "44527307100024",
+      "wheelchair": "no",
+      "wheelchair:entrance_width": "86",
+      "wheelchair:step_height": "26",
+      "description": "Tudisco Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8678605,
+        43.6172195
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/3986433947",
+      "access:covid19": "yes",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "1",
+      "addr:postcode": "34090",
+      "addr:street": "Avenue Chancel",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "delivery": "no",
+      "drive_through:covid19": "no",
+      "name": "Version Originale",
+      "opening_hours:covid19": "Mo-Su 18:00-21:00",
+      "outdoor_seating": "yes",
+      "phone": "+33 986656348",
+      "smoking": "outside",
+      "takeaway": "yes",
+      "takeaway:covid19": "yes",
+      "wheelchair": "yes",
+      "wheelchair:entrance_width": "95",
+      "wheelchair:step_height": "14",
+      "description": "Version Originale est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8694348,
+        43.6155417
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4014795669",
+      "amenity": "fast_food",
+      "contact:phone": "+33467065829",
+      "cuisine": "pizza",
+      "delivery:covid19": "no",
+      "name": "Pizzeria Bella Storia",
+      "opening_hours:covid19": "Mo-Su 17:30-21:15",
+      "takeaway": "yes",
+      "takeaway:covid19": "yes",
+      "description": "Pizzeria Bella Storia est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8628197,
+        43.6974003
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4021925135",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Forge Gourmande",
+      "phone": "+33 9 54 18 85 31",
+      "website": "https://laforgegourmande-beaulieu.fr/",
+      "description": "La Forge Gourmande est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.021438,
+        43.7296014
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4023857752",
+      "addr:city": "Saint-Drézéry",
+      "addr:housenumber": "2",
+      "addr:postcode": "34160",
+      "addr:street": "Rue du Parc",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/Mpizza-918682588166958",
+      "cuisine": "pizza",
+      "name": "M Pizza",
+      "opening_hours": "18:00-21:30; We off; Fr,Sa 18:00-22:00",
+      "phone": "+33 4 34 11 58 87",
+      "takeaway": "only",
+      "website": "https://www.mpizza-stdrezery.fr",
+      "description": "M Pizza est un restaurant situé à Saint-Drézéry, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9814478,
+        43.7335571
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4023863308",
+      "addr:city": "Saint-Drézéry",
+      "addr:housenumber": "1",
+      "addr:postcode": "34160",
+      "addr:street": "Allée de la Liberté",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Trinacria Brasserie",
+      "opening_hours": "Tu,Su 18:00-21:30; We,Th 11:30-13:30,18:00-21:30; Fr 11:30-13:30,18:00-21:45; Sa 18:00-21:45",
+      "phone": "+33 4 67 02 13 03",
+      "website": "https://latrinacriapizza.eatbu.com",
+      "description": "Trinacria Brasserie est un restaurant situé à Saint-Drézéry, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9804661,
+        43.7330887
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4066697114",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "La Traviata",
+      "description": "La Traviata est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8854318,
+        43.5841437
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4121146069",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Ved'AS Pizza",
+      "takeaway": "yes",
+      "description": "Ved'AS Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7526967,
+        43.5799737
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4121238318",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "description": "Restaurant sans nom est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7637117,
+        43.5829019
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4121311869",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Mario",
+      "description": "Pizza Mario est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7630835,
+        43.5825746
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4122989470",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Planet",
+      "takeaway": "yes",
+      "description": "Pizza Planet est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7594099,
+        43.5828679
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4133295798",
+      "amenity": "restaurant",
+      "contact:phone": "+33 4 67 55 57 77",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "name": "Planète Kosmos",
+      "ref:FR:SIRET": "51398771900012",
+      "takeaway": "yes",
+      "wheelchair": "yes",
+      "description": "Planète Kosmos est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8638249,
+        43.6226971
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4152810596",
+      "amenity": "restaurant",
+      "craft": "caterer",
+      "cuisine": "pizza",
+      "name": "La Pizzeria du Cartel",
+      "opening_hours": "Mo,Su 17:30-22:00; Tu-Sa 11:00-14:00,17:30-22:00",
+      "phone": "+33 9 81 65 19 07",
+      "description": "La Pizzeria du Cartel est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9845357,
+        43.6773613
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4183129921",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Aroma pizza",
+      "description": "Aroma pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9526462,
+        43.5640331
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4183129928",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza'Ola",
+      "description": "Pizza'Ola est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9527635,
+        43.5632202
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4193153606",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Fiesta",
+      "wheelchair": "yes",
+      "description": "Pizza Fiesta est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7728023,
+        43.5726161
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4196897040",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Roma",
+      "description": "Pizza Roma est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9424032,
+        43.6569378
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4197183893",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Chez José",
+      "takeaway": "yes",
+      "description": "Chez José est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9354095,
+        43.6420288
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4202240048",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Cournons",
+      "description": "Cournons est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7147549,
+        43.551257
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4256056530",
+      "addr:city": "Baillargues",
+      "addr:housenumber": "1",
+      "addr:postcode": "34670",
+      "addr:street": "Rue du Jeu de Ballon",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizzeria del Sogno",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 34 81 22 14",
+      "takeaway": "yes",
+      "description": "Pizzeria del Sogno est un restaurant situé à Baillargues, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0135794,
+        43.6603626
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4262590287",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Côté Pizza",
+      "outdoor_seating": "yes",
+      "description": "Côté Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9309358,
+        43.5272786
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4262592489",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "El Fuego",
+      "outdoor_seating": "yes",
+      "description": "El Fuego est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9301336,
+        43.5286755
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4262593191",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Gino",
+      "outdoor_seating": "yes",
+      "takeaway": "yes",
+      "description": "Pizza Gino est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.927639,
+        43.525977
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4404148232",
+      "addr:housenumber": "32",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Manine Pizza",
+      "description": "Manine Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8755159,
+        43.5602021
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4404307706",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Veg'As Pizza",
+      "description": "Veg'As Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9144646,
+        43.5736813
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4408167440",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Couleur Pizza",
+      "description": "Couleur Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9047448,
+        43.569669
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4515186577",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Station Pizza",
+      "description": "Station Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8439437,
+        43.5654267
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4527886838",
+      "addr:city": "Saint-Jean-de-Védas",
+      "addr:housenumber": "4",
+      "addr:postcode": "34430",
+      "addr:street": "Rue du Traité de Rome",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "email": "contact@pepepina.fr",
+      "name": "Pepe & Pina",
+      "opening_hours": "Mo,Tu 12:00-14:00; We-Fr 12:00-14:00,19:00-22:00; Sa 19:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 99 53 99 30",
+      "takeaway": "yes",
+      "website": "https://www.pepepina.fr",
+      "description": "Pepe & Pina est un restaurant situé à Saint-Jean-de-Védas, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8390821,
+        43.5694178
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4711927822",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza & Mozzarel",
+      "opening_hours": "Mo-Su 18:00-22:00",
+      "opening_hours:signed": "no",
+      "description": "Pizza & Mozzarel est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9689374,
+        43.656987
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4721319500",
+      "addr:city": "Saint-Jean-de-Védas",
+      "addr:housenumber": "13",
+      "addr:postcode": "34430",
+      "addr:street": "Rue de la Calade",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "La Bonne Braise",
+      "description": "La Bonne Braise est un restaurant situé à Saint-Jean-de-Védas, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8259643,
+        43.5778676
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4727341450",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Au Mazet de grand mémé",
+      "description": "Au Mazet de grand mémé est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9160585,
+        43.6358958
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4734242369",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Lorenzo Pizza",
+      "description": "Lorenzo Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9222336,
+        43.6395371
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4735919037",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Le Sablassou Pizzeria",
+      "description": "Le Sablassou Pizzeria est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9258264,
+        43.6370414
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4735926515",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizzéria Le Pascalou",
+      "description": "Pizzéria Le Pascalou est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8954064,
+        43.6335969
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4813560034",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Aiguelongue Pizzeria",
+      "description": "Aiguelongue Pizzeria est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8859598,
+        43.6299923
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4884367160",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza d'or",
+      "description": "Pizza d'or est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.795516,
+        43.4900719
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4884367165",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Le pti vicois",
+      "description": "Le pti vicois est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7967969,
+        43.4906433
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/4985901623",
+      "addr:city": "Mèze",
+      "addr:housenumber": "36",
+      "addr:postcode": "34140",
+      "addr:street": "Boulevard du Maréchal Foch",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/pizzeriarizzo",
+      "contact:instagram": "https://www.instagram.com/pizzeriarizzo_meze/?hl=fr",
+      "cuisine": "pizza",
+      "email": "contact@pizzeriarizzo.com",
+      "name": "Pizzeria Rizzo",
+      "opening_hours": "Tu-Fr 11:45-13:30,18:30-21:30; Sa,Su 18:30-21:30",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 99 44 52 09",
+      "takeaway": "yes",
+      "website": "https://pizzeriarizzo.com",
+      "description": "Pizzeria Rizzo est un restaurant situé à Mèze, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6059584,
+        43.4254666
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/5052214245",
+      "addr:city": "Lunel",
+      "addr:housenumber": "216",
+      "addr:postcode": "34400",
+      "addr:street": "Rue Tivoli",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/Pizzatonylunel.fr",
+      "cuisine": "pizza",
+      "name": "Pizz'a Tony",
+      "opening_hours": "Tu-Su 17:00-22:00",
+      "phone": "+33 4 67 13 22 37",
+      "takeaway": "only",
+      "website": "https://www.pizz-a-tony-lunel.fr",
+      "description": "Pizz'a Tony est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1295277,
+        43.6735377
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/5079888975",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Casa D'Oc",
+      "description": "Casa D'Oc est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.5497653,
+        43.3156153
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/5085794721",
+      "amenity": "restaurant",
+      "check_date": "2024-06-26",
+      "cuisine": "pizza",
+      "name": "Le Petit Valentino",
+      "name:fr": "Le Petit Valentino",
+      "description": "Le Petit Valentino est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8759707,
+        43.6084256
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/5163899882",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Les Deux Bérets",
+      "description": "Les Deux Bérets est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8219899,
+        43.5745425
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/5237560823",
+      "addr:city": "Frontignan",
+      "addr:housenumber": "15",
+      "addr:postcode": "34110",
+      "addr:street": "Avenue du Muscat",
+      "air_conditioning": "yes",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "indoor_seating": "yes",
+      "name": "Eden Pizza",
+      "outdoor_seating": "yes",
+      "wheelchair": "yes",
+      "description": "Eden Pizza est un restaurant situé à Frontignan, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7493122,
+        43.4431857
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/5316201424",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "name": "Pizza d'Ô",
+      "opening_hours": "Mo,Tu,Th,Fr 11:30-13:45,18:30-22:00; Su 18:30-22:00; We off",
+      "description": "Pizza d'Ô est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.839485,
+        43.6398969
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/5782900755",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Siesta",
+      "description": "La Siesta est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.5473341,
+        43.3133734
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/5786561953",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Chez Pierrot",
+      "description": "Chez Pierrot est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.5564176,
+        43.3207556
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/6093177677",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Nossa",
+      "website": "https://www.nossapizzeria.fr/",
+      "description": "Nossa est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6996459,
+        43.4043971
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/6641660753",
+      "addr:housenumber": "4",
+      "addr:street": "Impasse des Plaisanciers",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2024-10-06",
+      "cuisine": "pizza",
+      "description": "Le Stromboli Pizzeria est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité.",
+      "name": "Le Stromboli Pizzeria",
+      "opening_hours:signed": "no",
+      "phone": "+33 4 67 43 45 65"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7989554,
+        43.4456329
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/6841383461",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "disused:amenity": "driving_school",
+      "disused:name": "Auto-Ecole Grasset",
+      "source": "survey 2019;mapillary",
+      "description": "Restaurant sans nom est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.867268,
+        43.6247947
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/6882298028",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "fixme": "ce magasin ne se trouve pas sur leur site, existe-t-il encore?",
+      "name": "La pizza de Nico",
+      "source": "survey 2018;mapillary",
+      "description": "La pizza de Nico est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8883823,
+        43.5868734
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/6882298038",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Regal Pizza",
+      "source": "survey 2018;mapillary",
+      "description": "Regal Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8887283,
+        43.5877214
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/6996141771",
+      "addr:city": "Lunel",
+      "addr:housenumber": "276",
+      "addr:postcode": "34400",
+      "addr:street": "Boulevard de la République",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizzeria Calabria",
+      "opening_hours": "Mo-Fr 10:00-14:00,18:00-22:00; Sa 18:00-22:00",
+      "phone": "+33 9 84 59 78 26",
+      "takeaway": "yes",
+      "description": "Pizzeria Calabria est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1300698,
+        43.6781123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7036443320",
+      "addr:housenumber": "13",
+      "addr:postcode": "34000",
+      "addr:street": "Rue Sainte-Croix",
+      "amenity": "fast_food",
+      "check_date:opening_hours": "2024-10-26",
+      "cuisine": "pizza",
+      "name": "Don Peppino",
+      "opening_hours": "Tu-Fr 12:00-14:00,19:30-22:00",
+      "opening_hours:signed": "no",
+      "phone": "+33467528975",
+      "ref:FR:SIRET": "92889542400010",
+      "description": "Don Peppino est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8747366,
+        43.61231
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7049013772",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Antoin Pizza",
+      "description": "Antoin Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8044918,
+        43.6467513
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7099733904",
+      "amenity": "restaurant",
+      "brand": "Basilic & Co",
+      "brand:wikidata": "Q130248490",
+      "cuisine": "pizza",
+      "name": "Basilic & CO",
+      "opening_hours:covid19": "off",
+      "description": "Basilic & CO est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9011924,
+        43.6260094
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7124565418",
+      "addr:city": "Lunel",
+      "addr:housenumber": "321",
+      "addr:postcode": "34400",
+      "addr:street": "Avenue des Abrivados",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "drive_through": "no",
+      "name": "Pizza L’Abrivado",
+      "opening_hours": "18:15-22:00",
+      "phone": "+33 4 67 83 35 58",
+      "takeaway": "yes",
+      "description": "Pizza L’Abrivado est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.128637,
+        43.6705599
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7140822215",
+      "addr:city": "Lunel",
+      "addr:housenumber": "203",
+      "addr:postcode": "34400",
+      "addr:street": "Avenue Victor Hugo",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/ambiancepizzalunel",
+      "cuisine": "pizza",
+      "drive_through": "no",
+      "email": "ambiancepizzalunel@gmail.com",
+      "name": "Ambiance Pizza",
+      "opening_hours": "Mo-Th 18:00-21:30; Fr-Sa 18:00-22:30",
+      "phone": "+33 9 80 61 21 28",
+      "takeaway": "yes",
+      "website": "https://www.ambiancepizzalunel.fr",
+      "description": "Ambiance Pizza est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1328322,
+        43.6786633
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7160297283",
+      "addr:city": "Lunel",
+      "addr:housenumber": "146",
+      "addr:postcode": "34400",
+      "addr:street": "Boulevard de Strasbourg",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/pizzaJulunel",
+      "contact:instagram": "https://www.instagram.com/pizza_ju34",
+      "cuisine": "pizza",
+      "drive_through": "no",
+      "email": "vivianne@pizzajerome.com",
+      "name": "Pizza Chez Ju",
+      "opening_hours": "We-Su 18:00-22:00",
+      "phone": "+33 4 67 91 05 76",
+      "takeaway": "only",
+      "website": "http://www.pizzajerome.com",
+      "description": "Pizza Chez Ju est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1374127,
+        43.6765973
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7177025210",
+      "addr:city": "Lunel",
+      "addr:housenumber": "279",
+      "addr:postcode": "34400",
+      "addr:street": "Rue de Verdun",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "drive_through": "no",
+      "name": "Hut Pizza",
+      "opening_hours": "Mo-Sa 11:00-14:00,18:00-23:00; Fr off",
+      "phone": "+33 4 99 64 44 17",
+      "takeaway": "yes",
+      "description": "Hut Pizza est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1340753,
+        43.6795662
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7274340808",
+      "addr:city": "Marsillargues",
+      "addr:housenumber": "40",
+      "addr:postcode": "34590",
+      "addr:street": "Rue Jean Jaurès",
+      "amenity": "fast_food",
+      "contact:facebook": "https://fr-fr.facebook.com/La-Petite-Folie-Pizzeria-216692971701623",
+      "cuisine": "pizza",
+      "name": "La Petite Folie",
+      "opening_hours": "Tu-Su 18:00-22:00; Fr,Sa 11:30-13:30,18:00-22:00",
+      "phone": "+33 4 67 83 14 10",
+      "takeaway": "yes",
+      "description": "La Petite Folie est un restaurant situé à Marsillargues, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1786924,
+        43.6661672
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7501563085",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza street",
+      "survey:date": "2022-08-27",
+      "description": "Pizza street est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8974831,
+        43.6179536
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7572478990",
+      "amenity": "fast_food",
+      "contact:city": "Boisseron",
+      "contact:phone": "+33 4 67 86 43 99",
+      "contact:postcode": "34160",
+      "contact:street": "Avenue Folco de Baroncelli",
+      "cuisine": "pizza",
+      "name": "Da Morano",
+      "opening_hours": "Fr-Su 18:30-21:30",
+      "takeaway": "yes",
+      "description": "Da Morano est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0805921,
+        43.7606589
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7777734806",
+      "addr:city": "Valergues",
+      "addr:housenumber": "22",
+      "addr:postcode": "34130",
+      "addr:street": "Place Auguste Renoir",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Gino",
+      "opening_hours": "Tu-Sa 12:00-14:00,18:00-22:00; Su 18:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+33499627819",
+      "takeaway": "yes",
+      "website": "https://pizzagino.jimdofree.com",
+      "description": "Pizza Gino est un restaurant situé à Valergues, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.062141,
+        43.6696486
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7839086139",
+      "addr:city": "La Grande-Motte",
+      "addr:postcode": "34280",
+      "addr:street": "Avenue de la Petite Motte",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/Pizzeriadugarden",
+      "cuisine": "pizza",
+      "name": "Pizzeria du Garden",
+      "opening_hours": "11:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+33 6 51 64 00 39",
+      "takeaway": "yes",
+      "description": "Pizzeria du Garden est un restaurant situé à La Grande-Motte, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0719583,
+        43.5618058
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/7989277194",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "drive_through": "yes",
+      "name": "Les Deux Bérets",
+      "street_vendor": "yes",
+      "website": "https://lavalsiere.lesdeuxberets.fr/",
+      "description": "Les Deux Bérets est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8306514,
+        43.6444
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8147476407",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "1603",
+      "addr:postcode": "34000",
+      "addr:street": "Avenue de la Pompignane",
+      "amenity": "fast_food",
+      "brand": "Domino's",
+      "brand:wikidata": "Q839466",
+      "brand:wikipedia": "en:Domino's Pizza",
+      "cuisine": "pizza",
+      "name": "Domino's",
+      "opening_hours": "Mo-Th 11:30-14:00,18:00-22:30; Fr,Sa 11:30-14:00,18:00-23:00; Su 11:30-22:30",
+      "phone": "+33 4 67 55 11 11",
+      "takeaway": "yes",
+      "website": "https://www.dominos.fr/magasin/montpellier-pompignane_34000",
+      "description": "Domino's est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8973794,
+        43.6211091
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8147540818",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizzeria Damiano",
+      "phone": "+33950092893",
+      "ref:FR:SIRET": "50271929700058",
+      "survey:date": "2022-02-06",
+      "description": "Pizzeria Damiano est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8975671,
+        43.6197237
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8152106152",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Filipone",
+      "ref:FR:SIRET": "38004608600027",
+      "survey:date": "2022-08-27",
+      "description": "Pizza Filipone est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8972254,
+        43.6175935
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8255516724",
+      "addr:city": "Lunel-Viel",
+      "addr:housenumber": "463",
+      "addr:postcode": "34400",
+      "addr:street": "Avenue de la République",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/VYMPIZZA",
+      "cuisine": "pizza",
+      "email": "vympizza@gmail.com",
+      "name": "Vym Pizza",
+      "opening_hours": "Tu-Su 18:00-22:00",
+      "phone": "+33 7 81 09 07 70",
+      "takeaway": "only",
+      "description": "Vym Pizza est un restaurant situé à Lunel-Viel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0891079,
+        43.6782865
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8463966058",
+      "addr:city": "La Grande-Motte",
+      "addr:postcode": "34280",
+      "addr:street": "Avenue Robert Fages",
+      "amenity": "fast_food",
+      "contact:mobile": "+33 6 61 44 32 91",
+      "cuisine": "pizza",
+      "indoor_seating": "yes",
+      "name": "Napoli Pizza Port",
+      "opening_hours": "Tu-Su 10:00-13:30, 17:30-21:00",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 67 29 91 49",
+      "takeaway": "yes",
+      "wheelchair": "yes",
+      "description": "Napoli Pizza Port est un restaurant situé à La Grande-Motte, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0787215,
+        43.5593943
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8467133019",
+      "addr:city": "La Grande-Motte",
+      "addr:housenumber": "17",
+      "addr:postcode": "34280",
+      "addr:street": "Avenue Pierre Racine",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/pages/Europizza/236912446779448",
+      "cuisine": "pizza",
+      "name": "Europizza",
+      "opening_hours": "12:00-14:00,17:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 99 61 68 20",
+      "takeaway": "yes",
+      "website": "https://www.euro-pizza-34.fr",
+      "description": "Europizza est un restaurant situé à La Grande-Motte, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0856273,
+        43.5594276
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8500427982",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Dalton",
+      "opening_hours": "Tu-Su 17:00-22:30",
+      "description": "Pizza Dalton est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9533289,
+        43.5601703
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8513040153",
+      "amenity": "fast_food",
+      "contact:city": "Villetelle",
+      "contact:facebook": "https://www.facebook.com/chezlescopsvilletelle",
+      "contact:housenumber": "1295",
+      "contact:phone": "+33 4 67 85 20 22",
+      "contact:postcode": "34400",
+      "contact:street": "Route de Lunel",
+      "cuisine": "pizza",
+      "name": "Chez les Copains",
+      "description": "Chez les Copains est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1410316,
+        43.7222857
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8543814433",
+      "addr:city": "Lansargues",
+      "addr:housenumber": "4",
+      "addr:postcode": "34130",
+      "addr:street": "Rue de l'Argenterie",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/PizzerriaLouToril",
+      "cuisine": "pizza",
+      "email": "ilona.bouisseren@yahoo.fr",
+      "name": "Lou Toril",
+      "opening_hours": "Tu-Su 18:00-22:00",
+      "phone": "+33 4 67 86 38 66",
+      "takeaway": "yes",
+      "description": "Lou Toril est un restaurant situé à Lansargues, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0728595,
+        43.6517605
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8661713070",
+      "addr:city": "Lunel",
+      "addr:housenumber": "28",
+      "addr:postcode": "34400",
+      "addr:street": "Rue Thomas Millerot",
+      "amenity": "fast_food",
+      "contact:facebook": "https://www.facebook.com/Labarakalunel",
+      "contact:instagram": "https://www.instagram.com/labaraka34400",
+      "cuisine": "pizza",
+      "email": "labarakapizza34@gmail.com",
+      "name": "La Baraka",
+      "opening_hours": "Tu-Fr 11:30-13:30,18:00-21:00; Sa,Su 18:00-21:00",
+      "phone": "+33 7 49 32 84 06",
+      "takeaway": "yes",
+      "website": "https://labarakapizzeria.fr",
+      "description": "La Baraka est un restaurant situé à Lunel, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.1375406,
+        43.6848426
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8906644025",
+      "addr:city": "Bouzigues",
+      "addr:postcode": "34140",
+      "addr:street": "Place de la Golette",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "MITCHO PIZZA",
+      "opening_hours": "Tu-Su 17:30-22:00",
+      "phone": "+33 6 24 92 88 21",
+      "takeaway": "only",
+      "description": "MITCHO PIZZA est un restaurant situé à Bouzigues, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.658452,
+        43.4468881
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8909725419",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Calèche",
+      "survey:date": "2021-07-10",
+      "description": "La Calèche est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9772701,
+        43.5458855
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/8994272255",
+      "addr:city": "Mèze",
+      "addr:housenumber": "37",
+      "addr:postcode": "34140",
+      "addr:street": "Avenue de Montpellier",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "La Massilia",
+      "opening_hours": "Tu-Sa 11:00-14:00,18:00-21:30",
+      "phone": "+33 6 31 62 38 31",
+      "takeaway": "yes",
+      "website": "https://www.lamassilia.fr",
+      "description": "La Massilia est un restaurant situé à Mèze, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6071095,
+        43.4288136
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/9025186017",
+      "addr:street": "Rue Proudhon",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "diet:kosher": "only",
+      "name": "Pizzeria Casher",
+      "outdoor_seating": "yes",
+      "self_service": "yes",
+      "takeaway": "yes",
+      "description": "Pizzeria Casher est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8789262,
+        43.6176381
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/9035372141",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Pizz'Ria",
+      "description": "La Pizz'Ria est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6066598,
+        43.4262535
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/9562181778",
+      "addr:housenumber": "7",
+      "addr:street": "Avenue de Vendargues",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Tonton Pizza",
+      "phone": "+33467565607",
+      "website": "https://tonton-pizza.fr",
+      "description": "Tonton Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9128702,
+        43.6594189
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/9609166090",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "467",
+      "addr:postcode": "34000",
+      "addr:street": "Avenue du Major Flandre",
+      "amenity": "fast_food",
+      "brand": "Domino's",
+      "brand:wikidata": "Q839466",
+      "brand:wikipedia": "en:Domino's Pizza",
+      "cuisine": "pizza",
+      "name": "Domino's",
+      "opening_hours": "11:00-23:00",
+      "phone": "+33 4 67 70 04 04",
+      "ref:FR:SIRET": "80810829400022",
+      "takeaway": "yes",
+      "website": "https://www.dominos.fr/magasin/montpellier-nord_34090",
+      "description": "Domino's est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8710695,
+        43.6293015
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/9609193708",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "165",
+      "addr:postcode": "34000",
+      "addr:street": "Avenue Théroigne de Méricourt",
+      "amenity": "fast_food",
+      "brand": "Domino's",
+      "brand:wikidata": "Q839466",
+      "brand:wikipedia": "en:Domino's Pizza",
+      "cuisine": "pizza",
+      "name": "Domino's",
+      "opening_hours": "Mo-Th 11:30-14:00,18:00-22:00; Fr,Sa 11:30-14:00,18:00-23:00; Su 11:30-22:00",
+      "phone": "+33 4 67 07 03 03",
+      "ref:FR:SIRET": "82362657700022",
+      "takeaway": "yes",
+      "website": "https://www.dominos.fr/magasin/montpellier-port-marianne_34000",
+      "wheelchair": "yes",
+      "description": "Domino's est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9015698,
+        43.5975003
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/9609214951",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "1",
+      "addr:postcode": "34000",
+      "addr:street": "Place Corot",
+      "amenity": "fast_food",
+      "brand": "Domino's",
+      "brand:wikidata": "Q839466",
+      "brand:wikipedia": "en:Domino's Pizza",
+      "cuisine": "pizza",
+      "name": "Domino's",
+      "opening_hours": "Mo-Th 11:30-14:00,18:00-22:00; Fr,Sa 11:30-14:00,18:00-23:00; Su 11:30-22:00",
+      "phone": "+33 4 67 70 02 00",
+      "ref:FR:SIRET": "49450743700031",
+      "takeaway": "yes",
+      "website": "https://www.dominos.fr/magasin/montpellier-ouest_34070",
+      "description": "Domino's est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8450211,
+        43.6182133
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/9749845656",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "description": "Restaurant sans nom est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8671685,
+        43.6263362
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/9949118099",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Pizzaiola",
+      "phone": "+3371760055",
+      "description": "La Pizzaiola est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8797845,
+        43.5928914
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/10185939739",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "drive_through": "no",
+      "name": "Bambino Pizza Club",
+      "website": "https://www.bambinopizzaclub.fr/",
+      "description": "Bambino Pizza Club est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.902156,
+        43.658742
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/10691329082",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Il Pizzaiolo",
+      "description": "Il Pizzaiolo est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6967214,
+        43.4010454
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/10833932740",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Djazz",
+      "organic": "yes",
+      "ref:FR:SIRET": "89131503800010",
+      "description": "Djazz est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8810248,
+        43.6146058
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/10862058478",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "25",
+      "addr:postcode": "34000",
+      "addr:street": "Place Caroline Aigle",
+      "amenity": "restaurant",
+      "branch": "Basilic & Co",
+      "brand": "Basilic & Co",
+      "brand:wikidata": "Q130248490",
+      "capacity": "52",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "diet:local": "yes",
+      "diet:non-vegetarian": "yes",
+      "diet:vegetarian": "yes",
+      "email": "basilicandcomontpellier@outlook.fr",
+      "highchair": "yes",
+      "internet_access": "yes",
+      "name": "Basilic & Co",
+      "opening_hours": "Mo-Th 11:30-14:00,18:00-22:30; Fr-Sa 11:30-14:00,18:00-23:00; Su 11:30-14:00,18:00-22:30",
+      "operator": "Basilic & Co",
+      "outdoor_seating": "yes",
+      "payment:app": "yes",
+      "payment:cards": "yes",
+      "payment:cash": "yes",
+      "payment:contactless": "yes",
+      "payment:credit_cards": "yes",
+      "payment:maestro": "yes",
+      "payment:mastercard": "yes",
+      "payment:mastercard_contactless": "yes",
+      "payment:notes": "yes",
+      "payment:visa": "yes",
+      "payment:visa_debit": "yes",
+      "payment:visa_electron": "yes",
+      "phone": "+33 4 99 58 84 72",
+      "smoking": "outside",
+      "start_date": "2023-06-01",
+      "takeaway": "yes",
+      "website": "https://basilic-and-co.com/restaurants/pizzeria-montpellier-saint-roch/",
+      "website:menu": "https://basilic-and-co.com/wp-content/uploads/2023/02/Menu-carte-restaurant-Basilic-and-Co-Montpellier-Saint-Roch.pdf",
+      "wheelchair": "yes",
+      "description": "Basilic & Co est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8775568,
+        43.603123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/10936739769",
+      "addr:city": "Mèze",
+      "addr:housenumber": "40",
+      "addr:postcode": "34140",
+      "addr:street": "Avenue de Montpellier",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/people/Restaurant-pizzeria-snack-Piccolino-Mèze/100057772835298/",
+      "cuisine": "pizza",
+      "name": "Pizzeria Piccolino",
+      "opening_hours": "Mo-Sa 11:00-14:00,18:00-22:00; Tu off; Su 18:30-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+33 4 67 43 81 88",
+      "takeaway": "yes",
+      "description": "Pizzeria Piccolino est un restaurant situé à Mèze, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6076216,
+        43.4287891
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/10967941906",
+      "addr:housenumber": "4",
+      "addr:street": "Rue de Verdun",
+      "amenity": "fast_food",
+      "check_date:opening_hours": "2024-06-24",
+      "cuisine": "pizza",
+      "indoor_seating": "yes",
+      "name": "Cheezy pizza",
+      "opening_hours:signed": "no",
+      "outdoor_seating": "pedestrian_zone",
+      "ref:FR:SIRET": "90928709600020",
+      "description": "Cheezy pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8802911,
+        43.6076089
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11050896058",
+      "addr:city": "Sète",
+      "addr:housenumber": "2",
+      "addr:postcode": "34200",
+      "addr:street": "Quai de la Dunette",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Le Petit Croc",
+      "phone": "+33 9 50 51 06 68",
+      "website": "https://www.pizzerialepetitcroc.fr/",
+      "description": "Le Petit Croc est un restaurant situé à Sète, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6623234,
+        43.396058
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11056109869",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Pizza Street",
+      "website": "https://www.pizzastreet.fr/",
+      "description": "Pizza Street est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8899293,
+        43.6082728
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11207591477",
+      "addr:city": "Villeneuve-lès-Maguelone",
+      "addr:housenumber": "2",
+      "addr:postcode": "34750",
+      "addr:street": "Rue des Roselières",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "La Pizza Box",
+      "phone": "+33467275238",
+      "description": "La Pizza Box est un restaurant situé à Villeneuve-lès-Maguelone, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8561858,
+        43.5377402
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11291240701",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Aroma pizza",
+      "opening_hours": "Mo-Su 18:00-22:30",
+      "phone": "+33467270435",
+      "description": "Aroma pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9524264,
+        43.5643389
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11386232905",
+      "addr:city": "Montpellier",
+      "addr:housenumber": "23",
+      "addr:postcode": "34000",
+      "addr:street": "Rue du Faubourg de la Saunerie",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Il Pizzaiolo",
+      "phone": "+33 4 99 63 81 39",
+      "ref:FR:SIRET": "75201773100031",
+      "website": "https://il-pizzaiolo.fr/le-snack/",
+      "description": "Il Pizzaiolo est un restaurant situé à Montpellier, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8753125,
+        43.6055377
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11760546555",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Party",
+      "description": "Pizza Party est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9652189,
+        43.6599304
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11769471065",
+      "addr:city": "Sète",
+      "addr:housenumber": "87",
+      "addr:postcode": "34200",
+      "addr:street": "Grand'Rue Mario Roustan",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizz & Co",
+      "opening_hours": "11:30-23:00; Tu-Th 11:30-14:30,18:30-22:00",
+      "phone": "+33 4 34 53 34 13",
+      "takeaway": "yes",
+      "description": "Pizz & Co est un restaurant situé à Sète, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.6964449,
+        43.3981753
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11844422524",
+      "addr:city": "Marseillan Plage",
+      "addr:housenumber": "7",
+      "addr:postcode": "34340",
+      "addr:street": "place du marché",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza de l'âtre",
+      "phone": "+33749685570",
+      "description": "Pizza de l'âtre est un restaurant situé à Marseillan Plage, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.5516526,
+        43.3170494
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/11958986100",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "name": "Jules César",
+      "description": "Jules César est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8859388,
+        43.6058609
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12007224194",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2024-06-24",
+      "cuisine": "pizza",
+      "indoor_seating": "yes",
+      "name": "La Pizza PaPa",
+      "opening_hours:signed": "no",
+      "outdoor_seating": "no",
+      "description": "La Pizza PaPa est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8803967,
+        43.6085634
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12012810469",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "indoor_seating": "yes",
+      "name": "PIZZA GELLA",
+      "outdoor_seating": "pedestrian_zone",
+      "description": "PIZZA GELLA est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8760025,
+        43.6076618
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12147659243",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Horizon Pizza",
+      "outdoor_seating": "yes",
+      "description": "Horizon Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7592613,
+        43.4300163
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12196884490",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Nono",
+      "description": "Nono est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8296679,
+        43.610846
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12203597544",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Michel",
+      "description": "Pizza Michel est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.0238177,
+        43.6617673
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12365084280",
+      "amenity": "fast_food",
+      "cuisine": "pizza",
+      "description": "Restaurant sans nom est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.7521505,
+        43.4455164
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12415579389",
+      "addr:city": "Clapiers",
+      "addr:housenumber": "16",
+      "addr:postcode": "34830",
+      "addr:street": "Grand' Rue Marie Lacroix",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizz'appentis",
+      "opening_hours": "Tu-Su 17:30-21:30",
+      "phone": "+33 7 69783406",
+      "description": "Pizz'appentis est un restaurant situé à Clapiers, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8864773,
+        43.657046
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12775750674",
+      "amenity": "fast_food",
+      "check_date": "2025-04-22",
+      "cuisine": "pizza",
+      "name": "Yamma Pizza",
+      "description": "Yamma Pizza est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.8492651,
+        43.6078175
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "@id": "node/12906264414",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Gracie Pizzeria",
+      "description": "Gracie Pizzeria est un restaurant situé à une ville charmante, spécialisé dans la cuisine pizza. Un lieu apprécié pour une pause gourmande en toute simplicité."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.9002154,
+        43.6600089
+      ]
+    }
+  }
+]

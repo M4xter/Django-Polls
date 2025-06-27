@@ -2,6 +2,7 @@ from django.db.models import F
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
+from django.shortcuts import render
 from django.views import generic
 from django.utils import timezone
 from django.core.mail import send_mail
@@ -13,6 +14,7 @@ import requests
 from django.http import JsonResponse
 from .utils import get_client_ip, get_geoip_details
 from .models import Response
+from .models import Restaurant
 
 
 class IndexView(generic.ListView):
@@ -25,7 +27,6 @@ class IndexView(generic.ListView):
         published inZ the future).
         """
         return Question.objects.filter(pub_date__lte=timezone.now()).order_by("-pub_date")
-
 
 class DetailView(generic.DetailView):
     model = Question
@@ -63,7 +64,7 @@ def response_list_json(request):
     for r in responses:
         data.append({
             "id": r.id,
-            "response_text": r.response_text,  # ici le vrai nom du champ
+            "response_text": r.response_text,
             "longitude": r.longitude,
             "latitude": r.latitude,
         })
@@ -95,10 +96,8 @@ def vote(request, question_id):
 
         percentage = round((vote_count / total_votes) * 100, 2) if total_votes > 0 else 0
 
-        # Récupération de l'IP
         ip_address = get_client_ip(request)
 
-        # Appel à l’API Hackertarget pour géolocalisation (facultatif)
         try:
             url = f"https://api.hackertarget.com/geoip/?q={ip_address}&output=json"
             response = requests.get(url, timeout=5)
@@ -111,14 +110,10 @@ def vote(request, question_id):
         longitude = geo_data.get("longitude")
         latitude = geo_data.get("latitude")
 
-
-
-        # new response ; request.POST["choice"] ; question=question
         if latitude is not None and longitude is not None:
             response_text = selected_choice.choice_text
             Response.objects.create(question=question, response_text=response_text, latitude=latitude, longitude=longitude)
 
-        # Email HTML enrichi avec IP et géoloc
         html_message = render_to_string("emails/vote_notification.html", {
             "question_text": question.question_text,
             "choice_text": selected_choice.choice_text,
@@ -131,7 +126,6 @@ def vote(request, question_id):
             "city": city,
         })
 
-        # Email texte brut
         message = f"""Un utilisateur a voté "{selected_choice.choice_text}" pour la question :
 "{question.question_text}".
 Adresse IP : {ip_address}
@@ -151,9 +145,79 @@ def results(request, question_id):
     choices = question.choice_set.all()
     labels = [choice.choice_text for choice in choices]
     votes = [choice.votes for choice in choices]
-    
+
+    # Ajoute l'ID à la session si pas déjà présent
+    polls_seen_ids = request.session.get('polls_seen', [])
+    if question_id not in polls_seen_ids:
+        polls_seen_ids.append(question_id)
+        request.session['polls_seen'] = polls_seen_ids
+
+    polls_total = Question.objects.count()
+
     return render(request, 'polls/results.html', {
         'question': question,
         'labels': labels,
         'votes': votes,
+        'polls_seen': len(polls_seen_ids),
+        'polls_total': polls_total
+    })
+
+def map_view(request):
+    return render(request, 'map.html')
+
+def restaurants_json(request):
+    features = []
+
+    for r in Restaurant.objects.all():
+        features.append({
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [r.longitude, r.latitude]
+            },
+            "properties": {
+                "name": r.name,
+                "type": r.type,
+                "id": r.id,
+                "longitude": r.longitude,
+                "latitude": r.latitude,
+                "address": r.address,
+                "description": r.description,
+                "image_url": r.image_url,
+            }
+        })
+
+    return JsonResponse({
+        "type": "FeatureCollection",
+        "features": features
+    })
+
+def index(request):
+    questions = Question.objects.all()
+    polls_total = questions.count()
+    
+    polls_seen = len(request.session.get('polls_seen', []))
+
+    return render(request, 'polls/index.html', {
+        'questions': questions,
+        'polls_seen': polls_seen,
+        'polls_total': polls_total
+    })
+
+def detail(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+
+    # On ajoute l'ID à la liste des sondages vus dans la session
+    polls_seen_ids = request.session.get('polls_seen', [])
+
+    if question_id not in polls_seen_ids:
+        polls_seen_ids.append(question_id)
+        request.session['polls_seen'] = polls_seen_ids
+
+    polls_total = Question.objects.count()
+
+    return render(request, 'polls/detail.html', {
+        'question': question,
+        'polls_seen': len(polls_seen_ids),
+        'polls_total': polls_total
     })

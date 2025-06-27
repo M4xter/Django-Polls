@@ -10,6 +10,8 @@
         background-color: #f4f6f8;
         margin: 0;
         padding: 0;
+        color: #2c3e50;
+        transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     .container {
@@ -19,13 +21,14 @@
         padding: 2rem;
         border-radius: 12px;
         box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        animation: fadeIn 1s ease-in-out both;
     }
 
     h1 {
         text-align: center;
         font-size: 1.8rem;
         margin-bottom: 2rem;
-        color: #2c3e50;
+        color: inherit;
     }
 
     ul {
@@ -35,8 +38,24 @@
 
     li {
         margin: 0.8rem 0;
+        opacity: 0;
+        transform: translateY(12px);
+        animation: fade-in-up 0.3s ease-out forwards;
     }
 
+    @keyframes fade-in-up {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Boutons sondages */
     a.poll-link {
         display: block;
         background: #3498db;
@@ -44,13 +63,15 @@
         text-decoration: none;
         padding: 1rem 1.5rem;
         border-radius: 8px;
-        transition: background 0.3s ease;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         font-size: 1.1rem;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: background 0.3s ease, transform 0.2s ease;
+        cursor: pointer;
+        user-select: none;
     }
-
-    a.poll-link:hover {
+    a.poll-link:hover, a.poll-link:focus {
         background: #2980b9;
+        transform: translateY(-3px);
     }
 
     .no-polls {
@@ -58,23 +79,292 @@
         font-size: 1.2rem;
         color: #888;
     }
+
+    .quote {
+        text-align: center;
+        font-style: italic;
+        color: #555;
+        margin-top: 2rem;
+        animation: fadeIn 1.2s ease forwards;
+    }
+
+    .clock-container {
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        background: rgba(44, 62, 80, 0.9);
+        color: #ecf0f1;
+        padding: 10px 16px;
+        border-radius: 12px;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 14px;
+        text-align: right;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        z-index: 999;
+    }
+
+    .clock-container div:first-child {
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .clock-container div:last-child {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .weather-icon {
+        position: fixed;
+        top: 20px;
+        left: 30px;
+        font-size: 1.8rem;
+        background: rgba(255,255,255,0.9);
+        border-radius: 50%;
+        padding: 8px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        user-select: none;
+    }
+
+    @keyframes pop {
+        0% { background-color: #fff; }
+        50% { background-color: #d1f7c4; }
+        100% { background-color: #fff; }
+    }
+
+    body.celebrate {
+        animation: pop 0.4s ease;
+    }
+
+    /* Thème sombre */
+    body.dark {
+        background-color: #2c3e50;
+        color: #ecf0f1;
+    }
+    body.dark .container {
+        background: #34495e;
+        color: #ecf0f1;
+    }
+    body.dark a.poll-link {
+        background: #2980b9;
+        color: #ecf0f1;
+    }
+    body.dark a.poll-link:hover,
+    body.dark a.poll-link:focus {
+        background: #1c5980;
+        transform: translateY(-3px);
+    }
+
+    /* Transition page fade */
+    .fade-out {
+        opacity: 0;
+        transition: opacity 0.5s ease-out;
+    }
+
+    /* Sélecteur thème bouton */
+    #theme-selector {
+        position: fixed;
+        top: 20px;
+        left: 100px;
+        background: rgba(255,255,255,0.9);
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 16px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        user-select: none;
+        z-index: 1000;
+        color: #2c3e50;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    body.dark #theme-selector {
+        background: rgba(52, 73, 94, 0.9);
+        color: #ecf0f1;
+    }
+    #theme-selector span {
+        font-weight: 600;
+    }
+
+    /* Boutons thème */
+    .theme-btn {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: transform 0.2s ease, color 0.3s ease;
+        color: #777;
+        padding: 4px;
+        border-radius: 6px;
+        user-select: none;
+    }
+    .theme-btn:hover, .theme-btn:focus {
+        transform: translateY(-3px);
+        color: #3498db;
+        outline: none;
+    }
+    body.dark .theme-btn {
+        color: #bbb;
+    }
+    body.dark .theme-btn:hover, 
+    body.dark .theme-btn:focus {
+        color: #9acdff;
+    }
+
+    /* Message bienvenue */
+    #welcome-msg {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        color: #666;
+        transition: color 0.3s;
+    }
+    body.dark #welcome-msg {
+        color: #ddd;
+    }
 </style>
 
+<div id="clock" class="clock-container"></div>
+<div id="weather-icon" class="weather-icon">⛅</div>
+
+<!-- Choix du thème avec boutons -->
+<div id="theme-selector" aria-label="Choix du thème">
+    <span>Thème :</span>
+    <button id="btn-light" class="theme-btn" aria-label="Thème clair" title="Thème clair">☀️</button>
+    <button id="btn-dark" class="theme-btn" aria-label="Thème sombre" title="Thème sombre">🌙</button>
+</div>
+
 <div class="container">
+    <div id="welcome-msg"></div>
+
     <h1>📊 Sondages disponibles</h1>
 
     {% if latest_question_list %}
         <ul>
             {% for question in latest_question_list %}
-                <li>
+                <li style="animation-delay: {{ forloop.counter0|add:"1"|floatformat:2 }}s;">
                     <a class="poll-link" href="{% url 'polls:detail' question.id %}">
                         🗳️ {{ question.question_text }}
                     </a>
                 </li>
             {% endfor %}
         </ul>
+
+        <p id="seen-count" style="text-align:center; margin-top:1rem; color:#444;"></p>
+
     {% else %}
         <p class="no-polls">Aucun sondage disponible pour le moment.</p>
     {% endif %}
+
+    <div class="quote" id="quote"></div>
 </div>
+
+<script>
+const icons = ['☀️', '🌧️', '⛅', '🌩️', '🌫️', '❄️'];
+document.getElementById('weather-icon').innerText = icons[Math.floor(Math.random() * icons.length)];
+</script>
+
+<script>
+// Mise à jour de l'horloge
+function updateClock() {
+    const now = new Date();
+    const optionsDate = { weekday: 'long', day: 'numeric', month: 'long' };
+    const optionsTime = { hour: '2-digit', minute: '2-digit', second: '2-digit' };
+    
+    const date = now.toLocaleDateString('fr-FR', optionsDate);
+    const time = now.toLocaleTimeString('fr-FR', optionsTime);
+
+    document.getElementById('clock').innerHTML = `
+        <div>${date}</div>
+        <div>${time}</div>
+    `;
+}
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+
+<script>
+// Citation aléatoire
+const quotes = [
+    "“Chaque vote compte.”",
+    "“Exprimez-vous, le monde vous écoute.”",
+    "“Un clic peut tout changer.”",
+    "“La démocratie, c’est vous.”"
+];
+document.getElementById('quote').innerText = quotes[Math.floor(Math.random() * quotes.length)];
+</script>
+
+<script>
+// Effet de clic "celebration" sur les sondages
+document.querySelectorAll('.poll-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        document.body.classList.add('celebrate');
+        document.body.classList.add('fade-out');
+
+        setTimeout(() => {
+            window.location = link.href;
+        }, 500);
+    });
+});
+</script>
+
+<script>
+// Gestion du thème clair/sombre avec boutons
+const btnLight = document.getElementById('btn-light');
+const btnDark = document.getElementById('btn-dark');
+
+function applyTheme(theme) {
+    if (theme === 'dark') {
+        document.body.classList.add('dark');
+    } else {
+        document.body.classList.remove('dark');
+    }
+    localStorage.setItem('theme', theme);
+}
+
+btnLight.addEventListener('click', () => applyTheme('light'));
+btnDark.addEventListener('click', () => applyTheme('dark'));
+
+// Appliquer au chargement
+const savedTheme = localStorage.getItem('theme') || 'light';
+applyTheme(savedTheme);
+</script>
+
+<script>
+// Message de bienvenue personnalisé
+const welcomeMsg = document.getElementById('welcome-msg');
+const now = new Date();
+const hour = now.getHours();
+
+let greeting = "Bienvenue !";
+
+if (hour < 12) {
+    greeting = "Bonjour ! ☀️";
+} else if (hour < 18) {
+    greeting = "Bon après-midi ! 🌤️";
+} else {
+    greeting = "Bonsoir ! 🌙";
+}
+
+welcomeMsg.innerText = greeting;
+</script>
+
+<script>
+// Affichage du pourcentage sondages vus
+// On récupère depuis Django le total et le nombre vus, puis on calcule proprement
+const total = {{ latest_question_list|length|default:"0" }};
+const seen = {{ seen_questions_count|default:"0" }};
+
+const seenCountP = document.getElementById('seen-count');
+
+if (total > 0) {
+    const percent = Math.round((seen / total) * 100);
+    seenCountP.textContent = `Sondages vus : ${seen} / ${total} (${percent}%)`;
+} else {
+    seenCountP.textContent = '';
+}
+</script>
+
 {% endblock %}

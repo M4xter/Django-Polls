@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Carte interactive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .map-container {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <iframe 
+            src="https://livemap.getwemap.com/dom.html?emmid=30601&token=F2VAKQL5CFV94NNVYMJRCLAWH" 
+            allowfullscreen 
+            allowtransparency 
+            allow="geolocation; camera; accelerometer; gyroscope; magnetometer; fullscreen"
+            title="Carte interactive">
+        </iframe>
+    </div>
+</body>
+</html>

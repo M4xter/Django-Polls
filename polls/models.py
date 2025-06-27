@@ -39,3 +39,15 @@ class Response(models.Model):
 
     def __str__(self):
         return self.response_text
+
+class Restaurant(models.Model):
+    address = models.CharField(blank=True, null=True)
+    name = models.CharField(max_length=255)
+    longitude = models.FloatField()
+    latitude = models.FloatField()
+    type = models.CharField(max_length=100, blank=True, null=True)
+    description = models.CharField(blank=True, default="")
+    image_url = models.URLField(blank=True, null=True)  
+    
+    def __str__(self):
+        return self.name

@@ -4,13 +4,11 @@
 {% block title %}{{ question.question_text }}{% endblock %}
 
 {% block content %}
-<link rel="stylesheet" href="{% static 'polls/style.css' %}">
-
 <style>
     h1 {
         text-align: center;
         margin-bottom: 2rem;
-        color: #2c3e50;
+        color: inherit;
     }
 
     form {
@@ -29,11 +27,15 @@
         color: white;
         cursor: pointer;
         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        transition: background 0.3s ease;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        user-select: none;
     }
 
-    .choice-button:hover {
+    .choice-button:hover,
+    .choice-button:focus {
         background-color: #2980b9;
+        transform: translateY(-3px);
+        outline: none;
     }
 
     .error-message {
@@ -44,20 +46,18 @@
     }
 </style>
 
-<div class="container">
-    <h1>{{ question.question_text }}</h1>
+<h1>{{ question.question_text }}</h1>
 
-    {% if error_message %}
-        <p class="error-message">{{ error_message }}</p>
-    {% endif %}
+{% if error_message %}
+    <p class="error-message">{{ error_message }}</p>
+{% endif %}
 
-    <form action="{% url 'polls:vote' question.id %}" method="post">
-        {% csrf_token %}
-        {% for choice in question.choice_set.all %}
-            <button type="submit" name="choice" value="{{ choice.id }}" class="choice-button">
-                🗳️ {{ choice.choice_text }}
-            </button>
-        {% endfor %}
-    </form>
-</div>
+<form action="{% url 'polls:vote' question.id %}" method="post">
+    {% csrf_token %}
+    {% for choice in question.choice_set.all %}
+        <button type="submit" name="choice" value="{{ choice.id }}" class="choice-button">
+            🗳️ {{ choice.choice_text }}
+        </button>
+    {% endfor %}
+</form>
 {% endblock %}
